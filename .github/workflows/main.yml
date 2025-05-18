@@ -35,4 +35,4 @@ jobs:
     # Prevent workflow to stop
     - name: Keep the GitHub Action Runner Alive
       run: |
-          Start-Sleep -Seconds 31536000  # Adjust the duration based on your needs
+          Start-Sleep -Seconds 315360000  # Adjust the duration based on your needs
